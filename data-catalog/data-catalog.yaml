@@ -18,42 +18,457 @@ dataCatalog:
   license: 
     title: https://creativecommons.org/licenses/by-sa/4.0/
   publisher:
-    name: my name
+    name: EPRI Europe
+  status: draft  
 
 
 datasets:
-  - identifier: ex:herrcgre
-    title: test dataset
+  # UC1: Multi Energy and Sector Coupling (DTU)
+  - identifier: ex:uc1-regulatory-compliance
+    title: Regulatory Compliance Strategy for UC1
     publisher:
-      name : my name
-    contactPoint: 
-      hasEmail: my.name@example.com
-    status: draft
-    theme:
-      - ex:abc
-      - ex:bcd 
-      - ex:def
+      name: DTU
+    status: planned
     license:
-      title: "cc-by 4.0"
-    temporal:
-      hasBeginning: 2025-01-01
-      hasEnd: 2025-12-31  
-    inSeries: ex:abcde
-    hasPolicy: plcy:open-information-policy
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:regulatory-compliance
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-ai-system
+    title: AI System for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:ai-system
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-training-data-procedures
+    title: Training Data Collection and Processing Procedures for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:data-processing
+      - ex:training-data
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-test-validation-procedures
+    title: Test and Validation Procedures for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:test-data
+      - ex:validation-data
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-prompt-response-log
+    title: Prompt Response Log for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:prompt-response-log
+      - ex:ai-system
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-training-dataset
+    title: Training data set for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:training-data
+      - ex:sector-coupling
+      - ex:energy
+
+  - identifier: ex:uc1-validation-dataset
+    title: Validation data set for UC1
+    publisher:
+      name: DTU
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc1-multi-energy-sector-coupling
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:validation-data
+      - ex:sector-coupling
+      - ex:energy
+
+  # UC2: Transmission Congestion Management (TU Delft)
+  - identifier: ex:uc2-regulatory-compliance
+    title: Regulatory Compliance Strategy for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:regulatory-compliance
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-validation-dataset
+    title: Validation data set for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:validation-data
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-training-data-procedures
+    title: Training Data Collection and Processing Procedures for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:data-processing
+      - ex:training-data
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-prompt-response-log
+    title: Prompt Response Log for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:prompt-response-log
+      - ex:ai-system
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-test-validation-procedures
+    title: Test and Validation Procedures for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:test-data
+      - ex:validation-data
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-ai-system
+    title: AI System for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:ai-system
+      - ex:congestion-management
+      - ex:energy
+
+  - identifier: ex:uc2-training-dataset
+    title: Training data set for UC2
+    publisher:
+      name: TU Delft
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc2-transmission-congestion-management
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:training-data
+      - ex:congestion-management
+      - ex:energy
+
+  # UC3: DER integration into Distribution Systems (Fraunhofer)
+  - identifier: ex:uc3-regulatory-compliance
+    title: Regulatory Compliance Strategy for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:regulatory-compliance
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-training-dataset
+    title: Training data set for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:training-data
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-validation-dataset
+    title: Validation data set for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:validation-data
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-prompt-response-log
+    title: Prompt Response Log for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:prompt-response-log
+      - ex:ai-system
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-ai-system
+    title: AI System for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:ai-system
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-training-data-procedures
+    title: Training Data Collection and Processing Procedures for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:data-processing
+      - ex:training-data
+      - ex:der-integration
+      - ex:energy
+
+  - identifier: ex:uc3-test-validation-procedures
+    title: Test and Validation Procedures for UC3
+    publisher:
+      name: Fraunhofer
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc3-der-integration-distribution-systems
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:test-data
+      - ex:validation-data
+      - ex:der-integration
+      - ex:energy
+
+  # UC4: Energy efficiency, management and sharing for local energy communities (INESC-TEC)
+  - identifier: ex:uc4-test-validation-procedures
+    title: Test and Validation Procedures for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:test-data
+      - ex:validation-data
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-training-dataset
+    title: Training data set for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:training-data
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-regulatory-compliance
+    title: Regulatory Compliance Strategy for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:regulatory-compliance
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-prompt-response-log
+    title: Prompt Response Log for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:prompt-response-log
+      - ex:ai-system
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-training-data-procedures
+    title: Training Data Collection and Processing Procedures for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:data-processing
+      - ex:training-data
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-validation-dataset
+    title: Validation data set for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:validation-data
+      - ex:energy-community
+      - ex:energy
+
+  - identifier: ex:uc4-ai-system
+    title: AI System for UC4
+    publisher:
+      name: INESC-TEC
+    status: planned
+    license:
+      title: TBD
+    inSeries: ex:uc4-energy-efficiency-local-communities
+    hasPolicy: plcy:open-information
+    theme:
+      - ex:ai-system
+      - ex:energy-community
+      - ex:energy
 
 concepts:
   - prefLabel: energy
-    identifier: ex:abc
-    definition: energy is energy
-    altLabel: juice
-  - prefLabel: test
-    identifier: ex:bcd
-    definition: test is just for testing
-    altLabel: practice  
-  - prefLabel: data
-    identifier: ex:def
-    definition: data is plural of datum
-    altLabel: information (leave a comment ;-))  
+    identifier: ex:energy
+    definition: Energy domain related data
+    altLabel: power
+  - prefLabel: AI system
+    identifier: ex:ai-system
+    definition: Artificial Intelligence system or model
+  - prefLabel: training data
+    identifier: ex:training-data
+    definition: Dataset used for training AI models
+  - prefLabel: validation data
+    identifier: ex:validation-data
+    definition: Dataset used for validating AI models
+  - prefLabel: test data
+    identifier: ex:test-data
+    definition: Dataset used for testing AI models
+  - prefLabel: regulatory compliance
+    identifier: ex:regulatory-compliance
+    definition: Documents related to regulatory compliance
+  - prefLabel: prompt response log
+    identifier: ex:prompt-response-log
+    definition: Logs of AI prompts and responses
+  - prefLabel: data processing
+    identifier: ex:data-processing
+    definition: Procedures for data collection and processing
+  - prefLabel: sector coupling
+    identifier: ex:sector-coupling
+    definition: Multi-energy sector coupling
+  - prefLabel: congestion management
+    identifier: ex:congestion-management
+    definition: Transmission congestion management
+  - prefLabel: DER integration
+    identifier: ex:der-integration
+    definition: Distributed Energy Resources integration
+  - prefLabel: energy community
+    identifier: ex:energy-community
+    definition: Local energy communities  
 
 series:
   - identifier: ex:uc1-multi-energy-sector-coupling
